@@ -8,7 +8,7 @@ If you have any questions about anything,
 
 I hope you can read anything I post here
 
-PS - My resume is in the MidwestGames/MidwestGames [REPO](https://github.com/MidwestGames/MidwestGames/blob/main/Spring%202022%20Resume%20Logan%20Heying.pdf), check it out!
+PS - [My resume is found here](https://github.com/MidwestGames/MidwestGames/blob/main/Spring%202022%20Resume%20Logan%20Heying.pdf), check it out!
 
 Happy trails!
 
