@@ -8,6 +8,8 @@ If you have any questions about anything,
 
 I hope you can read anything I post here
 
+PS - My resume is in the MidwestGames/MidwestGames Repo, check it out!
+
 Happy trails!
 
 <!---
