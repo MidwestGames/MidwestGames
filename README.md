@@ -4,11 +4,11 @@ Anything here is probably horribly optimized and buggy as hell.
 I mainly am using this for game jam source code, but other repositories may exist.
 If you have any questions about anything, 
 
-  Email: MidwestGameDevelopment@gmail.com
+  Email: heyinglogan@gmail.com
 
 I hope you can read anything I post here
 
-PS - [My resume is found here](https://github.com/MidwestGames/MidwestGames/blob/main/Fall%202022%20Resume.docx.pdf), check it out!
+PS - [My resume is found here](), check it out!
 
 Happy trails!
 
