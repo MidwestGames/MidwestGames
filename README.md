@@ -8,7 +8,7 @@ If you have any questions about anything,
 
 I hope you can read anything I post here
 
-PS - [My resume is found here](), check it out!
+PS - [My resume is found here](main.pdf), check it out!
 
 Happy trails!
 
