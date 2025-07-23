@@ -1,0 +1,204 @@
+\documentclass[letterpaper, 10pt]{article}
+
+\usepackage{fancyhdr}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+
+\hbadness 10000
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.65in}
+\addtolength{\evensidemargin}{-0.65in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}
+{
+  \vspace{-4pt}\scshape\raggedright\large
+}
+    {}{0em}{}
+    [
+        \color{black}
+        \titlerule 
+        \vspace{-3pt}
+    ]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]
+{
+  \item\small
+  {
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]
+{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \small #2 \\ \vspace{-2pt}
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubSubheading}[2]
+{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeProjectHeading}[2]
+{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & #2 \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubItem}[1]
+{
+    \item\footnotesize
+    {
+        {\hspace*{35pt}#1 \vspace{-2pt}}
+    }
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% +++++ BEGIN RESUME HERE +++++
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+    % HEADER AND LINKS
+    \begin{center}
+        
+        \textbf{\large Logan Heying} \\ \vspace{-1pt}
+        \href{tel:5056978479}{\footnotesize 505-697-8479} $|$ 
+        \href{mailto:19heyinglog@gmail.com}{\footnotesize\underline{19heyinglog@gmail.com}} $|$ 
+        \href{https://linkedin.com/in/loganheying}{\footnotesize\underline{LinkedIn}} $|$ 
+        \href{https://github.com/MidwestGames}{\footnotesize\underline{GitHub}} %% Set up github pages rather than linking to main page
+
+    \end{center}
+
+    % Eduction Setup
+    \section{Education}
+        \resumeSubHeadingListStart
+            \resumeSubheading
+                {Iowa State University}{Ames, Iowa}
+                {Bachelor of Science in Aerospace Engineering} {August 2019 - December 2023} \\ \vspace{2pt}
+                \hspace*{10pt} {\footnotesize GPA : 3.48/4.00} \\ \vspace{-3pt}
+                \hspace*{10pt} {\footnotesize Dean's List : Spring 2021, Fall 2022, Spring 2023, Fall 2023} \vspace{-3pt}
+            \resumeSubheading
+                {University Of New Mexico}{Albuquerque, New Mexico}
+                {Master of Science in Electrical Engineering (Emphasis: Systems and Controls)} {August 2025 - (Expected) May 2027}
+        \resumeSubHeadingListEnd
+
+    % Experiences
+    \section{Experience}
+        \resumeSubHeadingListStart
+            \resumeSubheading
+                {Intel Corporation}{Rio Rancho, New Mexico}
+                {Tactical Systems Engineer}{January 2024 - Present}
+            \resumeItemListStart
+                \resumeItem{Complete cycle time goaling analyses for all products manufactured in New Mexico}
+                \resumeItem{Develop and maintain site specific reports and analyses}
+                \begin{itemize}[label={}]
+                    \item Design of automated buisness process for 1-click assessment ready for review with factory management
+                    \item Design and development of Capacity-Velocity model (based on G/G/m Equation) capable of providing accurate end of line takt time of any product 
+                    \item Design and development of tactical horizon discrete event simulation capable of predicting cycle time limiters based on current factory performance compared to capacity model theoretical output
+                \end{itemize}
+                \resumeItem{Maintain factory reporting system supporting backend through service requests}
+                \resumeItem{Design and distribute company-wide analyses and models for factory cycle time}
+                \begin{itemize}[label={}]
+                    \item ETL applications to support factory indicators of machines not connected to traditional IBM DB2 database structure
+                    \item Factory segment chart used to track wafers across all sites within Intel for central planning \\ \vspace{1pt}                    
+                \end{itemize}
+            \resumeItemListEnd
+
+            \resumeSubSubheading
+                {Wet Etch Capacity Engineer}{November 2021 - January 2024}
+            \resumeItemListStart
+                \resumeItem{Capacity analysis of all Wet Etch machines for Fab F11X}
+                \begin{itemize}[label={}]
+                    \item{Maintain a model of record for all tools associated with Wet Etch module}
+                    \item{Statistical analysis of real-time data versus modeled metrics}
+                    \item{Velocity model based on cost-optimized capacity model based on plan wafer starts}
+                \end{itemize}
+                \resumeItem{Develop various tools for Capacity Engineering team and Production Engineering orgainization}
+                \begin{itemize}[label={}]
+                    \item{Python application used to calculate wafer batch size and throughput of diffusion furnace toolsets, used to reduce analysis time}
+                    \item{Python application that calculates the capacity of tank-based Wet Etch tools constrained to the limiting tank, greatly reduced analysis time}
+                    \item{Development of 3-inch wafer capacity model to replace in-person time study, reduced assessment time from 1 quarter to 1 week by using historical data}
+                \end{itemize}
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+    \section{Projects}
+        \resumeSubHeadingListStart
+            \resumeSubheading
+                {Project Manager}{January 2023 - December 2023}
+                {Iowa State University Senior Capstone}{Ames, Iowa}
+            \resumeItemListStart
+                \resumeItem{Organize team meetings and drove productive weekly instructor meetings}
+                \resumeItem{Create standard template for all reports (LaTeX) and ensured all data reported is accurate and up-to-date}
+                \resumeItem{Optimize aircraft aerodynamic parameters using STAR CCM+}
+                \resumeItem{Designed and optimized CAD models and manufacturing process}
+                \resumeItem{Design and layup of rib and spar composite wing using carbon fiber skin and balsa ribs}
+            \resumeItemListEnd
+
+            \resumeSubheading
+                {Payload Engineer}{January 2021 - May 2021}
+                {Cylaunch Rocket Design - Iowa State University}{Ames, Iowa}
+            \resumeItemListStart
+                \resumeItem{Design payload container and manufacture payload device}
+                \resumeItem{Develop inertial navigation algorithm to locate craft after landing}
+                \resumeItem{Support development of altitude management system}
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+    \section{Technical Skills}
+        \begin{itemize}[leftmargin=0.15in, label={}]
+            \small
+            {
+                \item
+                {
+                    \textbf{Languages}{: Python, C\#, Java, C\slash C++, VBA, Arduino, MATLAB, SQL Server}\\
+                    \textbf{Frameworks}{: \.NET, JUnit, NUnit, OpenGL} \\
+                    \textbf{Development Tools}{: Git, VS 2022, VS Code 2022, Jetbrains Suite, Eclipse}\\
+                    \textbf{Sofware}{: MS Office Suite, Adobe Creative Suite, Solidworks, STAR CCM+, Blender} \\
+                    \textbf{Libraries}{: Python - numpy, pandas, matplotlib, scipy $|$ C\# - WinForms, EventFlow} 
+                }
+            }
+        \end{itemize}
+
+\end{document}
