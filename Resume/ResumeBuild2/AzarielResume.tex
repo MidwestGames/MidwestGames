@@ -1,0 +1,202 @@
+\documentclass[letterpaper, 10pt]{article}
+
+\usepackage{fancyhdr}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+
+\hbadness 10000
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.65in}
+\addtolength{\evensidemargin}{-0.65in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}
+{
+  \vspace{-4pt}\scshape\raggedright\large
+}
+    {}{0em}{}
+    [
+        \color{black}
+        \titlerule 
+        \vspace{-3pt}
+    ]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]
+{
+  \item\small
+  {
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]
+{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \small #2 \\ \vspace{-2pt}
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubSubheading}[2]
+{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeProjectHeading}[2]
+{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & #2 \\
+    \end{tabular*}\vspace{-2pt}
+}
+\newcommand{\resumeSubItem}[1]
+{
+    \item\footnotesize
+    {
+        {\hspace*{35pt}#1 \vspace{-2pt}}
+    }
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% +++++ BEGIN RESUME HERE +++++
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+    % HEADER AND LINKS
+    \begin{center}
+        
+        \textbf{\large Azariel Hajjaji} \\ \vspace{-1pt}
+        \href{tel:5058794224}{\footnotesize 505-879-4224} $|$ 
+        \href{mailto:2022.agh@gmail.com}{\footnotesize\underline{2022.agh@gmail}} $|$ 
+
+    \end{center}
+
+    % Eduction Setup
+    \section{Education}
+        \resumeSubHeadingListStart
+            \resumeSubheading
+                {University Of New Mexico - Albuquerque}{Albuquerque, New Mexico}
+                {Bachelor of Science in Applied Mathmatics} {August 2022 - Present} \\ \vspace{2pt}
+				\resumeSubSubheading{Minor in History}{August 2022 - Present}
+				\hspace*{10pt} {\footnotesize GPA : 3.64/4.00} \\ \vspace{-3pt}
+            \resumeSubheading
+                {University Of New Mexico - Gallup}{Gallup, New Mexico}
+                {Associate's Of Applied Science - General Studies} {August 2019 - May 2022}
+				\hspace*{10pt} {\footnotesize GPA : 4.00/4.00} \\ \vspace{-3pt}
+				\hspace*{10pt} {\footnotesize Graduated with Honours} \vspace{-3pt}
+        \resumeSubHeadingListEnd
+
+    % Experiences
+    \section{Experience}
+        \resumeSubHeadingListStart
+            \resumeSubheading
+                {Dynamic Minds Tutoring LLC}{Albuquerque, New Mexico}
+                {Math Tutor}{August 2024 - Present}
+            \resumeItemListStart
+				\resumeItem {Assist student in comprehending complext mathematical concepts at all grade levels}
+				\resumeItem {Adapt to students' unique thought process and find tools to help students thrive}
+				\resumeItem {Manage student appointment schedule}
+            \resumeItemListEnd
+
+            \resumeSubheading
+                {University Of New Mexico - Albuquerque}{Albuquerque, New Mexico}
+				{Math Department Grader}{August 2024 - May 2025}
+            \resumeItemListStart
+				\resumeItem {Grading for MATH 316 (\it{Ordinary Differential Equations})}
+				\resumeItem {Review student submissions and grading efficiently by staff selected questions}
+				\resumeItem {Understand students' thought process and determine if they understand the solution provided}
+				\resumeItem {Provide feedback to students based on gaps in knowledge or missed solution steps}
+            \resumeItemListEnd
+			
+			\resumeSubheading
+                {Hilton Garden Inn - Uptown}{Albuquerque, New Mexico}
+				{Front Desk Agent/Night Auditor}{May 2023 - August 2024}
+            \resumeItemListStart
+				\resumeItem {Complete customer check-in compassionately and effciency}
+				\resumeItem {Support customers' arangement concerns and fix booking issues}
+				\resumeItem {Pass down important information and support staff on call during evenings}
+				\resumeItem {Secure confidential information and support other staff in conforming to privacy standards}
+            \resumeItemListEnd
+			
+			\resumeSubheading
+                {Center for Academic Learning}{Gallup, New Mexico}
+				{Writing Tutor}{September 2019 - December 2019}
+            \resumeItemListStart
+				\resumeItem {Volunteer tutoring}
+				\resumeItem {Assiting students in developing efficient essay and report writing}
+				\resumeItem {Supporting students' search in proper resources for current and future work}
+				\resumeItem {Maintain accurate schecule of students' to maintain efficient support of all students and their needs}
+            \resumeItemListEnd
+			
+			
+        \resumeSubHeadingListEnd
+
+    \section{Projects}
+        \resumeSubHeadingListStart
+			\resumeSubheading
+                {Team Organizer}{January 2025 - May 2025}
+                {Introduction to Numerical Computing}{Albuquerque, New Mexico}
+            \resumeItemListStart
+				\resumeItem Test
+            \resumeItemListEnd
+			
+            \resumeSubheading
+                {Team Member}{December 2024}
+                {Introduction to Engineering Computing- ECE 130}{Albuquerque, New Mexico}
+            \resumeItemListStart
+				\resumeItem Test
+            \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+    \section{Technical Skills}
+        \begin{itemize}[leftmargin=0.15in, label={}]
+            \small
+            {
+                \item
+                {
+                    \textbf{Languages}{: }\\
+                }
+            }
+        \end{itemize}
+		
+	\section{Completed Courses}
+
+
+\end{document}
